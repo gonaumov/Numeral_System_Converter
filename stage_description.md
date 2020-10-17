@@ -1,21 +1,27 @@
-# Description
+<h2 style="text-align: center;">Description</h2>
 
-In this project, you will be creating your own numeral system converter. If you don't know what a numeral system is, 
-or simply need to brush up on the topic, browse through 
-the relevant [Wikipedia](https://en.wikipedia.org/wiki/Numeral_system) page.
- Also, there is a [great Youtube video](https://www.youtube.com/watch?v=L2zsmYaI5ww) that explains various numeral 
- systems and the relationship between them.
+<p>Implement a program that calculates <strong>the last digit</strong> of the given number converted to <a target="_blank" href="https://en.wikipedia.org/wiki/Radix" rel="nofollow noopener noreferrer" target="_blank">base</a> 8.</p>
 
-Implement a program that outputs a number in two systems: the first is decimal, and the second one is binary. 
-This must the the same number represented in different systems; feel free to choose any number you like.
+<p>This stage is auto-graded. The grader will <strong>input a number</strong> in base 10, and then check that your program<strong> output</strong> matches the correct answer.</p>
 
-This stage is auto-graded. The grader will check that:
+<h2 style="text-align: center;">Example</h2>
 
-- you output a single line;
-- there are two numbers;
-- the first number is decimal;
-- the second number is binary (it starts with 0b and contains only 0 and 1);
-- the first number is equal to the second one.
+<p><strong>Example 1</strong></p>
 
-Note that you do not need to enter anything into the program, you should print a line prepared in advance. 
-A single String is expected to be printed.
+<p>Input:</p>
+
+<pre><code class="language-no-highlight">8</code></pre>
+
+<p>Output:</p>
+
+<pre><code class="language-no-highlight">0</code></pre>
+
+<p><strong>Example 2</strong></p>
+
+<p>Input:</p>
+
+<pre><code class="language-no-highlight">9</code></pre>
+
+<p>Output:</p>
+
+<pre><code class="language-no-highlight">1</code></pre>
